@@ -14,19 +14,11 @@ else
 {
     Console.WriteLine(InCenter(number));
 }
-
-
-
-// ФУНКЦИИ
-
-// Функция принимает сообщение для отображения в консоли, и выводит результат введенных данных пользователем. 
 int ReadInt(string message)
 {
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
 }
-
-// Функция вывода цифры стоящей в середине трехзначногно числа.
 int InCenter(int a)
 {
     
